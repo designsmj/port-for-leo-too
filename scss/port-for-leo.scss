@@ -3,6 +3,7 @@ $blue: #cb628c;
 $white: #f2fcfb;
 $gray: #434D82;
 $black: #26D0B8;
+$black2: #050927; 
 
 //color stuff
 
@@ -38,12 +39,12 @@ background:$gray;
       background:$blue;
     }
 
-.btn_one:hover {
-        color:$blue;
+.btn_two:hover {
+        color:$gray;
       }
 
 .btn_two {
-    color:$blue;
+    color:$gray;
   }
 
   #footer a {
@@ -77,12 +78,17 @@ background:$gray;
 }
 
 #about_container a {
-    color: $white;
+    color: $black2;
     text-decoration: none;
 }
 #about_container a:hover {
   text-decoration: underline;
 }
+
+#about_container {
+  color: $black2 !important;
+}
+
 
 #work:hover {
     background:$blue;
