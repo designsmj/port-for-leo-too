@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(180deg,rgba(246, 252, 254,0.5),rgba(246, 252, 254,0.25)),url("../images/max-kolganov-pvVYxiaRNFg-unsplash-gm.png") center center;
+    background:linear-gradient(180deg,rgba(5, 9, 39,0.5),rgba(67, 77, 130,0.25)),url("../images/bilal-o-ljXekphwr40-unsplash.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -57,7 +57,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:#24282A;
     text-decoration:underline;
 }
 #middle {
@@ -93,6 +93,40 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
+
+#about_container{
+    overflow-y: hidden;
+}
+
+#languages {
+    color: #050927;
+}
+
+#libraries {
+    color:#2e0057;
+}
+
+#frameworks {
+    color:#002300;
+}
+
+#programs {
+    color:#450000;
+}
+
+#other {
+    color:;
+    font-style: italic;
+}
+
+hr {
+    width: 2rem;
+    display: inline-block;
+    height: .35rem;
+    background-color: white;
+    border: none;
+}
+
 #work {
     width:10vw;
     height:10vw;
