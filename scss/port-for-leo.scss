@@ -1,8 +1,8 @@
 //color
-$blue: #19B3E6;
-$white: #E8F7FC;
-$gray: #67787E;
-$black: #24282A;
+$blue: #cb628c;
+$white: #f2fcfb;
+$gray: #434D82;
+$black: #26D0B8;
 
 //color stuff
 
@@ -75,6 +75,15 @@ background:$gray;
     cursor:pointer;
     color: $white;
 }
+
+#about_container a {
+    color: $white;
+    text-decoration: none;
+}
+#about_container a:hover {
+  text-decoration: underline;
+}
+
 #work:hover {
     background:$blue;
     cursor:pointer;
