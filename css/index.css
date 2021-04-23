@@ -161,6 +161,11 @@ hr {
     border-radius:100px 100px 0px 0px;
 }
 
+#contact_container {
+    background-color:#22b8a6 !important;
+    color: #050927 !important;
+}
+
 #middle table {
     width:30%;
     margin:6vh auto;
@@ -224,9 +229,9 @@ hr {
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
+    color:#050927;
     background:transparent;
-    border:3px solid #fff;
+    border:3px solid #050927;
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
@@ -235,7 +240,8 @@ hr {
 }
 .btn_one:hover {
     cursor:pointer;
-    background:#fff;
+    background:#050927;
+    color: #26D0B8;
 }
 .btn_two {
     font-size:18px;
@@ -257,12 +263,12 @@ hr {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid rgba(5, 9, 39, 0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#050927;
     font-weight:bold;
 }
 .container form textarea {
@@ -270,7 +276,7 @@ hr {
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid rgba(5, 9, 39,0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
@@ -282,14 +288,14 @@ hr {
 }
 .container form input:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid rgba(5, 9, 39,1);
 }
 .container form textarea:focus {
     outline:none;
-    border-bottom:3px solid rgba(255, 255, 255,1);
+    border-bottom:3px solid rgba(5, 9, 39,1);
 }
 ::placeholder {
-    color:#fff;
+    color:#050927;
 }
 #footer {
     color:#fff;
@@ -322,11 +328,12 @@ hr {
 }
 
 ::selection {
-	color: #fff;
+	color: #050927;
 }
 
 #work_container {
   overflow-y: scroll;
+  background-color: #434D82 !important;
 }
 
 .works-desc, .works-img {
